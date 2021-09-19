@@ -16,13 +16,12 @@ namespace Coupon
 			int num = Convert.ToInt32(Console.ReadLine());
 
 			Console.WriteLine("---------------------------------------------------------------------");
-			//int get_coupon(int n);
 			
 			
 
 			if (num >0)
 			{
-				int c = get_coupon(num);
+				get_coupon(num);
 
 			}
 			else
@@ -50,7 +49,7 @@ namespace Coupon
 						Console.WriteLine("------------------------------------------------------");
 				        
 				         
-		           Console.WriteLine("Distinct coupon number:");
+		                      Console.WriteLine("Distinct coupon number:");
 
 					for (int i = 0; i < num; i++) // checking coupon number is repeated 
 					{
